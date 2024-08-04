@@ -1,0 +1,13 @@
+[package]
+name = "rust-single-threaded"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 3
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+html-macro = "0.2.5"
+virtual-node = "0.5.0"
